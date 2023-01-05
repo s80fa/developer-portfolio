@@ -116,3 +116,19 @@ main {
     margin-bottom: 30px;
 
 }
+
+.info-section{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 70px;
+}
+.about-info .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.about-info .info-description{
+    font-size: 20px;
+    color: #474747;
+    font-weight: 700;
+}
