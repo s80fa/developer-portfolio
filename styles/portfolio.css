@@ -206,3 +206,27 @@ main {
     margin-bottom: 40px;
     text-align: center;
 }
+/* Last section: footer Area */
+.contact{
+    display: flex;
+    gap: 100px;
+    padding: 130px 200px;
+    background-color: #FFF8F3;
+}
+.contact .section-title{
+    text-align: left;
+    font-size: 28px;
+}
+.contact-des{
+    margin-bottom: 10px;
+    color: #474747;
+}
+.contact input, textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 10px 20px;
+}
+input{
+    height: 40px;
+}
