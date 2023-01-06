@@ -95,6 +95,7 @@ main {
 /* about section styles */
 .about {
     margin-top: 130px;
+    margin-bottom: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -102,9 +103,12 @@ main {
 }
 
 .section-title {
-    margin-bottom: 40px;
+    margin-bottom: 70px;
+    margin-top: 0px;
     text-align: center;
     margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
 
 }
 
@@ -117,18 +121,81 @@ main {
 
 }
 
-.info-section{
+.info-section {
     display: flex;
     justify-content: space-around;
     text-align: center;
     margin-top: 70px;
 }
-.about-info .info-title{
+
+.about-info .info-title {
     font-size: 20px;
     color: #757575;
 }
-.about-info .info-description{
+
+.about-info .info-description {
     font-size: 20px;
     color: #474747;
     font-weight: 700;
+}
+
+.section-title-description {
+    text-align: center;
+    margin: 30px 180px 50px 180px;
+    color: #757575;
+    font-size: 18px;
+}
+.skills {
+    display: flex;
+    gap: 24px;
+    margin: 30px 100px 100px 100px;
+    
+}
+.skill-category{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.skill-name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.skill-description {
+    font-size: 18px;
+    color: #757575;
+}
+/* Resume Style section */
+.resume-content{
+    display: flex;
+    margin: 50px 150px 50px 150px;
+    gap: 30px;
+}
+.edex-title{
+    font-size: 28px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.institute{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #474747;
+}
+.year{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.institute-description{
+    font-size: 17px;
+    font-weight: 400;
+    color: #757575;
+    border-bottom: 1px solid #D1D1D1;
+    
 }
